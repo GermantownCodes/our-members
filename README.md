@@ -191,4 +191,4 @@ For our simplified workflow, we'll merge our **bio info** branch into master loc
 
 `$ git push`
 
-Now, upstream, origin and the local copy should all be in synch.
+Now, upstream, origin and the local copy should all be in sync.
