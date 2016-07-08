@@ -45,7 +45,7 @@ It's a convention to call the original repository **upstream**.
 ### 6. Review your remotes
 You should now have 2 remote repos: 1) upstream (the group's original repo) and 2) origin (your forked copy). Let's confirm this.
 
-`git remote`
+`$ git remote`
 
 You should see 2 remotes printed to the command line: **origin** and **upstream**
 
@@ -63,7 +63,7 @@ Create a local feature branch (a branch is a complete copy of the project), pref
 
 
 ### 9. Switch branches
-Switch from the default master branch you started in, over to the branch you just created (i.e., your new feature branch). For example:
+Switch from the default master branch (your local copy of the master branch) you started in, over to the branch you just created (i.e., your new feature branch). For example:
 
 `$ git checkout djb-add-member-bio`
 
@@ -77,13 +77,13 @@ Create a directory, named with your initials, within the src/data/members direct
 ### 11. Create a JSON file
 Create a JSON file, named with your initials, within the new directory you just created.
 
-Add any information you'd like to share publicly on our website. The only required field is name, the rest are up to you. Our current design only displays your name, but (depending on interest) this may change in the future. It's perfectly acceptable to just include your name only.
+Add any information you'd like to share publicly on our website. The only required field is name, the rest are up to you. Our current UI design only displays your name, but (depending on interest) this may change in the future. It's perfectly acceptable to just include your name only.
 
 Create the JSON file:
 
 `$ touch src/data/members/djb/djb.json`
 
-Add whatever data you'd like to share. Please follow guidelines from the [Google JSON Style Guide](https://google.github.io/styleguide/jsoncstyleguide.xml) for JSON data formatting. You may want to run your JSON through a linter like [JSON Generator](http://www.json-generator.com/).
+Add whatever data you'd like to share. Please follow guidelines from the [Google JSON Style Guide](https://google.github.io/styleguide/jsoncstyleguide.xml) for JSON data formatting. You may want to run your JSON through a linter like [JSON Generator](http://www.json-generator.com/).
 
 Here's JSON from an example file (djb.json):
 
@@ -171,15 +171,15 @@ Now that your fork reflects the changes you made (adding a JSON file and photo),
 
 
 ### 18. Post in Facebook
-Now that you've submitted a PR, please alert the team by posting on [Facebook](https://www.facebook.com/groups/free.code.camp.germantown.maryland/), so a teammate can review. You should hear back within 48 hours with suggestions on what might need updating, or your PR may be accepted without the need for revision.
+Now that you've submitted a pull request ("PR"), please alert the team by posting on our [Facebook group](https://www.facebook.com/groups/free.code.camp.germantown.maryland/), so a teammate can review. You should hear back within 48 hours with suggestions on what might need updating, or your PR may be accepted without the need for revision.
 
 
 ### 19. Synching
-Now that your updates have been added to master, it's time to celebrate!
+Now that your updates have been accepted and added to master, it's time to celebrate!
 
-Once the party has calmed, you'll notice that both your fork and your local copy are now out of sync with master! As this first project with GitHub is relatively brief, we won't do a rebase and instead use a simplified workflow to finish up. The next time we use GitHub we'll rebase as it's a best practice and cleans up the PR process considerably.
+Once the party has calmed, you'll notice that both your fork and your local copy are now out of sync with master! As this first project with GitHub is relatively brief, we won't do a rebase and instead use a simplified workflow to finish up. The next time we use GitHub we'll rebase as it's a best practice and cleans up the PR process (and master's commit history) considerably.
 
-For our simplified workflow, we'll merge our **bio info** branch into master locally, delete the **bio info** branch as we'll no longer need it and then push to our forked copy on GitHub to get it synched as well.
+For our simplified workflow, we'll merge our **bio info** branch into master locally, delete the **bio info** branch as we'll no longer need it, pull from master, and then push to our forked copy on GitHub to get it synched as well.
 
 `$ git checkout master`
 
