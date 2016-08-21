@@ -179,9 +179,9 @@ Now that you've submitted a pull request ("PR"), please alert the team by postin
 ### 19. Synching
 Now that your updates have been accepted and added to master, it's time to celebrate!
 
-Once the party has calmed, you'll notice that both your fork and your local copy are now out of sync with master! As this first project with GitHub is relatively brief, we won't do a rebase and instead use a simplified workflow to finish up. The next time we use GitHub we'll rebase as it can clean up the commit history considerably.
+Once the party has calmed, you'll notice that both your fork and your local copy are now out of sync with master! 
 
-For our simplified workflow, we'll merge our **bio info** branch into master locally, delete the **bio info** branch as we'll no longer need it, pull from master, and then push to our forked copy on GitHub to get it synched as well.
+To fix this, we'll merge our **bio info** branch into master locally, delete the **bio info** branch as we'll no longer need it, pull from master, and then push to our forked copy on GitHub to get it synched as well.
 
 `$ git checkout master`
 
