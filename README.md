@@ -143,13 +143,14 @@ Please use a square photo, at least 300 x 300, in .jpg or .jpeg format. For exam
 
 
 ### 13. Stage your changes
-`$ git add .`
+`$ git add -A`
 
 
 ### 14. Commit your changes
 `$ git commit -m "Add bio information for Dipta J. Basu aka djb"`
 
-**NOTE:** If you made multiple commits on your feature branch instead of a single commit, be sure to squash them into a single commit using an interactive rebase.
+**NOTE:** If you made multiple commits on your feature branch instead of a single commit, be sure to squash all of your commits into a single commit using an interactive rebase.
+
 
 ### 15. Check master for updates
 In the time that has passed since you forked the repo in GitHub, it's certainly possible that other contributors have updated master. So, let's pull in any changes from master and merge them into our feature branch.
@@ -178,7 +179,7 @@ Now that you've submitted a pull request ("PR"), please alert the team by postin
 ### 19. Synching
 Now that your updates have been accepted and added to master, it's time to celebrate!
 
-Once the party has calmed, you'll notice that both your fork and your local copy are now out of sync with master! As this first project with GitHub is relatively brief, we won't do a rebase and instead use a simplified workflow to finish up. The next time we use GitHub we'll rebase as it's a best practice and cleans up the PR process (and master's commit history) considerably.
+Once the party has calmed, you'll notice that both your fork and your local copy are now out of sync with master! As this first project with GitHub is relatively brief, we won't do a rebase and instead use a simplified workflow to finish up. The next time we use GitHub we'll rebase as it can clean up the commit history considerably.
 
 For our simplified workflow, we'll merge our **bio info** branch into master locally, delete the **bio info** branch as we'll no longer need it, pull from master, and then push to our forked copy on GitHub to get it synched as well.
 
