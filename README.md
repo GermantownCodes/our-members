@@ -153,7 +153,7 @@ Please use a square photo, at least 300 x 300, in .jpg or .jpeg format. For exam
 
 
 ### 15. Check master for updates
-In the time that has passed since you forked the repo in GitHub, it's certainly possible that other contributors have updated master. So, let's pull in any changes from master and merge them into our feature branch.
+In the time that has passed since you forked the repo in GitHub, it's certainly possible that other contributors have updated the main (i.e., master) branch. So, let's pull in any changes from master and merge them into our feature branch.
 
 `$ git checkout master`
 
