@@ -7,7 +7,7 @@ The **Our Members** section of our [website](http://codepen.io/diptajbasu/pen/ox
 
 If you'd like to have your name & photo included on our upcoming website, please follow the instructions below.
 
-If you're new to Git / GitHub, check out our [recommended resources](https://www.facebook.com/notes/184961131858082/Git%20/%20GitHub%20resources/258232804530914/).
+If you're new to Git / GitHub, check out our [recommended resources](https://www.facebook.com/groups/free.code.camp.germantown.maryland/files/).
 
 
 ### 0. Join our GitHub organization
