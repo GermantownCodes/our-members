@@ -19,7 +19,7 @@ In GitHub, fork the [website project](https://github.com/GermantownCodes/website
 
 
 ### 2. Open a CLI tool
-Open your preferred Command Line Interface tool. This could be Git Bash, Cmder, etc. on Windows. Terminal, iTerm2, etc. on OSX. Gnome, Terminator, Konsole, etc. on Linux.
+Open your preferred Command Line Interface tool. Use **Git BASH** on Windows (included with [Git for Windows](https://git-for-windows.github.io/)). Terminal, iTerm2, etc. on OSX. Gnome, Terminator, Konsole, etc. on Linux.
 
 
 ### 3. Select a directory
