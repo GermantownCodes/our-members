@@ -189,8 +189,9 @@ To fix this, we'll merge our **bio info** branch into master locally, delete the
 
 `$ git branch -d djb-add-member-bio`
 
+`$ git push origin --delete djb-add-member-bio`
+
 `$ git pull upstream master`
 
-`$ git push`
 
 Now, upstream, origin and the local copy should all be in sync.
