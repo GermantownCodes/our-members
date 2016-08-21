@@ -19,7 +19,7 @@ In GitHub, fork the [website project](https://github.com/GermantownCodes/website
 
 
 ### 2. Open a CLI tool
-Open your preferred Command Line Interface tool. This could be PowerShell, Cmder, etc. on Windows. Terminal, iTerm2, etc. on OSX. Gnome, Terminator, Konsole, etc. on Linux.
+Open your preferred Command Line Interface tool. This could be Git Bash, Cmder, etc. on Windows. Terminal, iTerm2, etc. on OSX. Gnome, Terminator, Konsole, etc. on Linux.
 
 
 ### 3. Select a directory
@@ -34,7 +34,13 @@ Clone the forked repository to your local machine. **Note:** Be sure to copy the
 `$ git clone https://github.com/diptajbasu/website.git`
 
 
-### 5. Connect your local copy
+### 5. Enter your local copy
+Enter your local copy of the project. The project folder you cloned onto your machine is called *website*.
+
+`$ cd website`
+
+
+### 6. Connect your local copy
 Connect your local copy to the original repository. Group members (i.e., collaborators) will be making many updates to the project's main repo, which contains the master branch. You'll, in turn, want to pull in those updates to your local copy frequently to avoid merge conflicts. So, you should connect your local copy by adding the original repo as a remote.
 
 It's a convention to call the original repository **upstream**.
@@ -42,18 +48,12 @@ It's a convention to call the original repository **upstream**.
 `$ git remote add upstream https://github.com/GermantownCodes/website.git`
 
 
-### 6. Review your remotes
+### 7. Review your remotes
 You should now have 2 remote repos: 1) upstream (the group's original repo) and 2) origin (your forked copy). Let's confirm this.
 
 `$ git remote`
 
 You should see 2 remotes printed to the command line: **origin** and **upstream**
-
-
-### 7. Enter your local copy
-Enter your local copy of the project. The project folder you cloned onto your machine is called *website*.
-
-`$ cd website`
 
 
 ### 8. Create a local branch
@@ -77,7 +77,7 @@ Create a directory, named with your initials, within the src/data/members direct
 ### 11. Create a JSON file
 Create a JSON file, named with your initials, within the new directory you just created.
 
-Add any information you'd like to share publicly on our website. The only required field is name, the rest are up to you. Our current UI design only displays your name, but (depending on interest) this may change in the future. It's perfectly acceptable to just include your name only.
+Add any information you'd like to share publicly on our website. The only required field is name, the rest are up to you. Our current UI design only displays your name, but we may decide to update the design in the future. It's perfectly acceptable to just include your name only.
 
 Create the JSON file:
 
@@ -149,6 +149,7 @@ Please use a square photo, at least 300 x 300, in .jpg or .jpeg format. For exam
 ### 14. Commit your changes
 `$ git commit -m "Add bio information for Dipta J. Basu aka djb"`
 
+**NOTE:** If you made multiple commits on your feature branch instead of a single commit, be sure to squash them into a single commit using an interactive rebase.
 
 ### 15. Check master for updates
 In the time that has passed since you forked the repo in GitHub, it's certainly possible that other contributors have updated master. So, let's pull in any changes from master and merge them into our feature branch.
