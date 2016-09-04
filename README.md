@@ -143,7 +143,7 @@ Please use a square photo, at least 300 x 300, in .jpg or .jpeg format. For exam
 
 
 ### 13. Stage your changes
-`$ git add -A`
+`$ git add -A .`
 
 
 ### 14. Commit your changes
